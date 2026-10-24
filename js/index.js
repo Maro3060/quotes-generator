@@ -10,3 +10,14 @@ var quotes = [
   { quote: "Whether you think you can, or you think you can't, you're right.", 
     author: "Henry Ford" }
 ];
+
+
+function getQoute() {
+    var random = Math.floor(Math.random() * quotes.length);
+    document.getElementById("gen-qoute-box").innerHTML = `
+    <p class="fs-2">"${quotes[random].quote}"</p>
+    <p class="fs-3">${quotes[random].author}</p>
+    `
+}
+
+getQoute();
