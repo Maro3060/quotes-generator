@@ -1,0 +1,20 @@
+@font-face {
+  font-family: playFair;
+  src: url("../webfonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: playFairItalic;
+  src: url("../webfonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: playFair;
+}
+
+main {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/lone-warrior-beneath-a-brilliant-mountain-sky-cq.jpg");
+  background-position: center;
+  background-size: cover;
+}
