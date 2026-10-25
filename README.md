@@ -41,8 +41,7 @@ The project consists of:
 ## Installation
 
 To run the project locally:
+Clone the repository:
 ```bash
-   git clone https://github.com/your-username/quotes-generator.git
-1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/random-quote-generator.git
